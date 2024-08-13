@@ -1,0 +1,41 @@
+body{
+    background-color: aquamarine;
+}
+.Todo{
+    display: flex;
+    padding: 20px;
+    
+}
+.centros {
+    padding: 50px;
+}
+
+.c1{
+    width: 50%;
+    margin: 10px;
+    background-color: azure;
+}
+.c2{     
+    width: 25%;
+    background-color: azure;
+    margin: 10px;
+    
+}
+.c3{
+    width: 25%;
+    margin: 10px;
+    background-color: azure;
+  
+}
+
+@media screen and (max-width: 500px){
+    .todo{
+        display: block;
+    }
+}
+@media screen and (max-width: 900px){
+    .todo{
+        display: block;
+        background-color: blue;
+    }
+}
