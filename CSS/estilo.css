@@ -1,10 +1,20 @@
-body{
-    background-color: rgb(255, 255, 255);
+header{
+    background-color: blue;
+    position: fixed;
+    width: 100%;
 }
 .Todo{
     display: flex;
     padding: 20px;
     
+}
+.topo{
+    display: flex;
+    margin: auto;
+    align-items: center;
+}
+.teste{
+    margin-top: 150px;
 }
 .centros {
     padding: 50px;
@@ -38,4 +48,29 @@ body{
         display: block;
         background-color: blue;
     }
+} 
+.logoPolitec{ /* formatando o tamanho da imagem */
+    width: 57px;
+    height: auto;
 }
+.opcoes{
+    margin-left: auto;
+}
+.opcoes ul{
+    list-style: none; /*tirar ponto de lista*/
+}
+.opcoes ul li{
+    display: inline;
+    color: white;
+    font-size: 1.35em; /*em - é um tipo de unidade medida*/
+    padding: 15px;                  /*Padding: Espaço interno| Margim e border são externos*/
+}
+.opcoes ul li a {
+ text-decoration: none;
+ color: white;
+}
+
+  /*5 - comentários no html*/
+  /*6 - backgroud color*/
+ /*7 - seletores de elementos (classe - id)*/
+ /*8 - link - href*/
